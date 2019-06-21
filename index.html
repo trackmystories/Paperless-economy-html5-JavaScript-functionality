@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+
+<style>
+  </style>
+<title>HTML 5</title>
+</head>
+<body>
+
+<style>
+
+  *{
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: 46.33%;
+    padding: 1px;
+
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width : 600px ) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+  h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 10px;
+  }
+  h2 {
+    font-family: 'Fjalla One', sans-serif;
+  }
+  h3 {
+    font-family: 'Fjalla One', sans-serif;
+  }
+  p {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 10px;
+  }
+
+  .flex-container  {
+    display: flex;
+    background-color: ##ffffff;
+  }
+
+  .flex-container > div {
+    background-color: #C0C0C0;
+  }
+
+  </style>
+
+
+
+
+<h2>"We are shifting from paper to screen"</h2>
+<h3>What would Money be in a paperless economy?</h3>
+<h1>by Ali Shirazee</h1>
+
+<p>Imagine a paperless economy, where the dependecies of paper are made reduntant and technologies as a form of written and
+visual expression is adopted,</p>
+<p> what would this mean? How would historians relate to it looking back a millenium for now?
+Would papers be exihibited in museams? or would they continue to be as they are?</p>
+
+
+
+
+<div class="row">
+<div class="column">
+<p>January 1st, 1983 is a date that change the world forever.
+On this date the World-Wide-Web was created by a computer scientist that went by the name of
+<a href="https://www.history.com/news/who-invented-the-internet">Tim Berners-Lee</a>.
+Since then the world has transformed into a far smallers place to interact in then ever before.</p>
+<p> With the creation of the internet brought in a new kind of renesaince, Art was being expressed like never before
+and that very expression was evovling as technologies evolved and continued to evolve to this day. Where things seem archaic
+to just 10 years ago on how content looked and feeled and essentially precieved.</p>
+<div class="row">
+  <div class="flex-container">
+<div class="column" width="800">
+  <h3>Layout</h3>
+<p>The layout and structure of the web has rapidily evolved since its very established, what could once be expressed on paper
+is now dynamically transformed on to the browser, consider a simple webpage like and compare it to the expresiveness
+of the like button on facebook, this shape and form has given us human being to dynamically express our selves out load with
+action that trancend borders. for example a simple like on a news feed can be seen and interpreted accross borders and in real time.</p>
+</div>
+<div class="column" width="800">
+  <h3>Money</h3>
+<p>Now consider the notion of money and how it has evolved since the birth of the World Wide Web,
+  with Digital came ways to make digital transaction, Paypal, Visa and other forms of payment gateways to form due to the this very notion
+  and with the birth of block chain came the formation of crypto currencies such as ethrium and stable coins such as Facebook's libra coin.
+</p>
+  <h3>A paperless economy?</h3>
+<p>So what would a paperless money economy mean? Would it be any different than our day to day e-commerce transaction or would it
+evolve into  </p>
+</div>
+</div>
+</div>
+</div>
+<div class="column">
+<img src="images/hbs.png" alt="tms" height=460>
+</div>
+</div>
+
+<h3> What form of currency would you prefer in a paperless economy? </h3>
+
+<div id="id_currency">Select
+  <button onclick="dollar()">$</button>
+  <button onclick="euro()">€</button>
+  </div>
+
+  <script>
+
+  function dollar(){
+    var txt;
+    txt = "Did you know that there is $1.54 trillion of U.S currency in circulation, and 97% percent of it is Federal Reserve Notes.";
+    document.getElementById("id_currency").innerHTML = txt;
+  }
+  function euro(){
+    var txt;
+    txt = "Did you know, that currently, the euro is the only officail currency of 16 EU member states.";
+    document.getElementById("id_currency").innerHTML = txt;
+  }
+
+  </script>
+
+
+
+
+
+</body>
+</html>
