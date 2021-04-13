@@ -5,3 +5,5 @@ Link: https://trackmystories.github.io/Paperless-economy-html5-JavaScript-functi
 Random HTML, Javascript web page. 
 
 Functionality : includes 3 buttons that add a unique item to a list and a button that clears all properties from the list.
+
+<img src="./screen.png" width="540" alt="screen.png">
